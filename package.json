@@ -6,8 +6,8 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "parcel build"
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist",
+    "build": "parcel build src/index.html --public-url ./"
   },
   "keywords": [],
   "author": "Deep Patel",
