@@ -6,13 +6,13 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "parcel build"
   },
   "keywords": [],
   "author": "Deep Patel",
   "license": "ISC",
-  "homepage": "https://deepp0925.github.io/research_project_website",
+  "homepage": "https://deepp0925.github.com/research_project_website",
   "devDependencies": {
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
