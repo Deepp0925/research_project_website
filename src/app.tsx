@@ -18,7 +18,6 @@ export function App() {
         <MenuDrawer />
         <Routes>
           <Route path="/about" element={<About />} />
-
           <Route path="/links" element={<Links />} />
           <Route path="/camera" element={<Camera />} />
           <Route path="/collaborators" element={<Collaborators />} />
